@@ -1,0 +1,103 @@
+.statistic {
+    position: relative;
+    margin-top: 131px;
+
+    &__background {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        z-index: -1;
+        width: 100%;
+        height: 1032px;
+        background: #edecf6;
+    }
+
+    &__container {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+
+        color: #d6d4e7;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15.5vw;
+        font-family: Playfair Display, serif;
+        line-height: 65px;
+    }
+    
+    &__label {
+        margin-top: 101px;
+        margin-bottom: 26px;
+
+        color: #a5a3b9;
+        font-weight: 500;
+        font-style: normal;
+        font-size: medium;
+        font-family: Montserrat, serif;
+        line-height: 29px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+    }
+
+    &__count {
+        color: #515076;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 7.8vmin;
+        font-family: Montserrat, serif;
+        line-height: 131px;
+    }
+
+    &__women {
+        margin-top: 42px;
+
+        color: #515076;
+        font-weight: 200;
+        font-size: 4.5vw;
+        font-family: Montserrat, serif;
+        line-height: 77px;
+    }
+
+    &__description {
+        margin-top: 61px;
+
+        color: #888794;
+        font-weight: 500;
+        font-size: medium;
+        font-family: Montserrat, serif;
+        line-height: 32px;
+    }
+
+    &__image-wrapper {
+        position: relative;
+        z-index: -1;
+
+        flex-shrink: 0;
+        width: 58.5vw;
+        padding-right: 4rem;
+
+        @media (min-width: 1920px) {
+            width: 31.5vw;
+            padding: 8rem;
+        }
+    }
+
+    &__image {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    &__flowers {
+        position: absolute;
+        top: 0;
+        left: 67%;
+        z-index: -1;
+        width: 42vw;
+    }
+}

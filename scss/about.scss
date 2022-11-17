@@ -1,0 +1,151 @@
+.about {
+    position: relative;
+    color:  #888794;
+    font-family: Montserrat, serif;
+    line-height: 1.6;
+
+    &__title {
+        margin: 128px 0 0 ;
+
+
+        
+        color:  #515076;
+       
+        font-family: Playfair Display, serif;
+        
+        font-size: 14.5vw;
+        line-height: 92.4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__description {
+        display: grid;
+        grid-template-columns: 385px 390px 400px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+
+        justify-content: space-between;
+        margin-top: 60px;
+
+        @media (max-width: 1175px) {
+            grid-template-columns: 25vw 25vw 26vw;
+        }
+    }
+
+    &__origins {
+        margin-top: 34px;
+        padding-right: 20px;
+
+        color: #63678c;
+        font-size: 3vmin;
+        font-family: Montserrat, serif;
+        line-height: 132%;
+    }
+
+    &__ingredients {
+        margin-top: 659px;
+    }
+
+    &__cosmetic {
+        margin-top: 72px;
+    }
+
+    &__button-choose {
+        margin: 96px;
+        padding: 25px;
+
+        border-radius: 100px;
+        background: #515076;
+        color: $white;
+        
+        font-weight: 600;
+        font-size: 1.2vmin;
+        font-family: Montserrat, serif;
+        letter-spacing: 0.3em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    &__remark {
+        width: 172px;
+        margin-left: auto;
+
+        color: #888794;
+        font-weight: 500;
+        font-size: medium;
+        font-family: Work Sans, serif;
+        line-height: 29px;
+        letter-spacing: 0.3em;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    &__star {
+        margin-top: 536px;
+        font-weight: 300;
+        font-size: 3vmin;
+    }
+
+    &__natural-ingredients {
+        margin-top: 96px;
+        
+        color: #757aa5;
+        font-size: 3vmin;
+        font-family: Montserrat, serif;
+        line-height: 39px;
+    }
+    
+    &__translate {
+        font-weight: 500;
+
+        b {
+            color: #8888a8;
+            font-weight: bold;
+        }
+    }
+    
+    &__natural-force {
+        margin-top: 32px;
+    }
+    
+    &__dandelion {
+        position: absolute;
+        width: 90vw;
+        opacity: 0.5;
+        top: -50px;
+        right: -7px;
+        z-index: -1;
+    }
+    
+    &__eucalyptus {
+        position: absolute;
+        top: 250px;
+        left: -10%;
+        z-index: -1;
+
+        width: 49vw;
+
+        @media (min-width: 1920px) {
+            left: -50%;
+        }
+    }
+    
+    &__berries {
+        position: absolute;
+        bottom: -400px;
+        left: 200px;
+        z-index: -2;
+        width: 60vw;
+        opacity: 0.8;
+
+        @media (min-width: 1920px) {
+            left: 30vw;
+        }
+        
+        @media (min-width: 1200px){
+            bottom: -600px;
+        }
+    }
+
+}

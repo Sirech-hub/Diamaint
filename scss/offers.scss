@@ -1,0 +1,32 @@
+.offers {
+    position: relative;
+    margin-top: 400px;
+
+    &__choose {
+        color: #757aa5;
+        font-weight: 200;
+        font-size: 4.5vw;
+        font-family: $Mont;
+        line-height: 109.4%;
+        text-align: center;
+    }
+
+    &__cards {
+        display: flex;
+
+        gap: 0.5rem;
+        align-items: flex-end;
+        justify-content: space-around;
+
+        margin: 80px 0 0;
+    }
+
+    &__dandelionseeds {
+        position: absolute;
+        top: -40%;
+        left: -20%;
+        z-index: -1;
+        width: 48vw;
+        opacity: 0.8;
+    }
+}

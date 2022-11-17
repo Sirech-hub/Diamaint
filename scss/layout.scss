@@ -1,0 +1,10 @@
+.layout {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2vw;
+
+    @media (min-width: 1920px) {
+        width: 60vw;
+    }
+}
